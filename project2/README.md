@@ -2,7 +2,7 @@
 
 # Report
 
-代码及报告可见：[Cheese-Bar/C-project: course project for C/C++, CS205 in Sustech (github.com)](https://github.com/Cheese-Bar/C-project)
+代码及报告可见：[C-project/project2 at main · Cheese-Bar/C-project (github.com)](https://github.com/Cheese-Bar/C-project/tree/main/project2)
 
 ## 一、思路
 
