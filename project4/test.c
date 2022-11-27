@@ -17,18 +17,18 @@ int main(int argc, char const *argv[])
         struct timeval end;
         unsigned long diff;
 
-        // gettimeofday(&start, NULL);
-        // matmul_plain(A,B);
-        // gettimeofday(&end, NULL);
-        // diff = 1e6 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec;
-        // printf("matmul_plain time:%ldus \n", diff);
+        gettimeofday(&start, NULL);
+        matmul_plain(A,B);
+        gettimeofday(&end, NULL);
+        diff = 1e6 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec;
+        printf("matmul_plain time:%ldus \n", diff);
 
 
-        // gettimeofday(&start, NULL);
-        // matmul_improved(A,B);
-        // gettimeofday(&end, NULL);
-        // diff = 1e6 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec;
-        // printf("matmul_improved time:%ldus \n",diff);
+        gettimeofday(&start, NULL);
+        matmul_improved(A,B);
+        gettimeofday(&end, NULL);
+        diff = 1e6 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec;
+        printf("matmul_improved time:%ldus \n",diff);
 
         gettimeofday(&start, NULL);
         matmul_openblas(A,B);

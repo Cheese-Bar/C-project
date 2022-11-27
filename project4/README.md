@@ -1,12 +1,14 @@
+[toc]
+
 # Report for Project 4
+
+代码可见：[C-project/project4 at main · Cheese-Bar/C-project (github.com)](https://github.com/Cheese-Bar/C-project/tree/main/project4)
 
 ### 运行
 
 ```shell
 gcc .\test.c .\matrix.c -mfma -static -I ./OpenBLAS/include/ -L ./OpenBLAS/lib -lopenblas -lpthread -lgfortran; .\a.exe
 ```
-
-
 
 ## 一、思路
 
